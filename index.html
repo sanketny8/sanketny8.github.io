@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sanket Nyayadhish - Senior AI Engineer specializing in LLMs, GenAI, Backend, and Cloud Infrastructure">
+    <meta name="description" content="Sanket Nyayadhish - AI Engineer specializing in LLM inference, backend systems, and GPU infrastructure.">
     <meta name="keywords" content="AI Engineer, LLM, GenAI, Machine Learning, Backend, Cloud, Kubernetes">
     <meta name="author" content="Sanket Nyayadhish">
-    <title>Sanket Nyayadhish | Senior AI Engineer</title>
+    <title>Sanket Nyayadhish | AI Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <div class="nav-logo">SN</div>
+            <a href="#" class="nav-logo">SN</a>
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="bookmarks.html" class="nav-link">Bookmarks</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -35,183 +35,79 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Hi, I'm <span class="highlight">Sanket Nyayadhish</span>
-                </h1>
-                <h2 class="hero-subtitle">
-                    Senior AI Engineer | LLMs × GenAI × Backend × Cloud Infrastructure
-                </h2>
-                <p class="hero-description">
-                    Building production LLM systems, scalable backends, and AI-optimized infrastructure
-                </p>
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-                </div>
-                <div class="social-links">
-                    <a href="https://twitter.com/Ny8Sanket" target="_blank" rel="noopener" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/ny8sanket" target="_blank" rel="noopener" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/sanketny8" target="_blank" rel="noopener" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="floating-card card-1">
-                    <i class="fas fa-robot"></i>
-                    <span>LLMs</span>
-                </div>
-                <div class="floating-card card-2">
-                    <i class="fas fa-brain"></i>
-                    <span>GenAI</span>
-                </div>
-                <div class="floating-card card-3">
-                    <i class="fas fa-server"></i>
-                    <span>Backend</span>
-                </div>
-                <div class="floating-card card-4">
-                    <i class="fas fa-cloud"></i>
-                    <span>Cloud</span>
-                </div>
+        <div class="container">
+            <h1 class="hero-title">Sanket Nyayadhish</h1>
+            <p class="hero-role">AI Engineer &mdash; inference, backend, infrastructure</p>
+            <p class="hero-description">
+                I build production systems for serving and orchestrating large language models &mdash;
+                from low-level transformer internals to agentic workflows with MCP,
+                distributed inference platforms, and GPU-optimized Kubernetes infrastructure.
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/sanketny8" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/Ny8Sanket" target="_blank" rel="noopener" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://linkedin.com/in/ny8sanket" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section class="section" id="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
+            <h2 class="section-title">About</h2>
+            <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        I'm a senior engineer passionate about building production-grade AI systems at the 
-                        intersection of LLMs, distributed backends, and cloud-native infrastructure. My work 
-                        focuses on taking cutting-edge AI research and transforming it into reliable, scalable 
-                        systems that solve real-world problems.
-                    </p>
-                    <p>
-                        I believe in learning by building, sharing knowledge openly, and pushing the boundaries 
-                        of what's possible with modern AI technology.
+                        I work at the intersection of LLM inference systems, distributed backends, and
+                        cloud-native infrastructure. My focus is taking models from research to production &mdash;
+                        building the serving layers, orchestration pipelines, and GPU infrastructure that make
+                        LLM systems work at scale.
                     </p>
                 </div>
-                <div class="about-highlights">
-                    <div class="highlight-card">
-                        <i class="fas fa-code"></i>
-                        <h3>Production AI</h3>
-                        <p>Building scalable LLM systems that work in the real world</p>
-                    </div>
-                    <div class="highlight-card">
-                        <i class="fas fa-rocket"></i>
-                        <h3>Innovation</h3>
-                        <p>Implementing cutting-edge research in production</p>
-                    </div>
-                    <div class="highlight-card">
-                        <i class="fas fa-users"></i>
-                        <h3>Open Source</h3>
-                        <p>Contributing to and building open-source projects</p>
-                    </div>
+                <div class="about-focus">
+                    <h3>Currently working on</h3>
+                    <ul>
+                        <li>Low-latency backends for LLM and GenAI workloads</li>
+                        <li>LLM serving infrastructure (vLLM, TensorRT-LLM, KV cache optimization)</li>
+                        <li>GPU workload orchestration on Kubernetes</li>
+                        <li>Agentic AI backends with multi-agent orchestration and tool use</li>
+                        <li>MCP (Model Context Protocol) servers and tool integrations</li>
+                        <li>Observability for AI systems (latency, drift, GPU utilization)</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="container">
-            <h2 class="section-title">Core Competencies</h2>
-            
+            <!-- Skills -->
             <div class="skills-grid">
-                <!-- LLMs & GenAI -->
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <i class="fas fa-brain"></i>
-                        <h3>LLMs & GenAI</h3>
-                    </div>
-                    <ul class="skill-list">
-                        <li><i class="fas fa-check"></i> Advanced RAG Systems</li>
-                        <li><i class="fas fa-check"></i> Fine-tuning (LoRA/QLoRA, RLHF, DPO)</li>
-                        <li><i class="fas fa-check"></i> Prompt Engineering Patterns</li>
-                        <li><i class="fas fa-check"></i> Multi-agent Orchestration</li>
-                        <li><i class="fas fa-check"></i> Vector Databases</li>
-                    </ul>
-                </div>
-
-                <!-- AI/ML Stack -->
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <i class="fas fa-robot"></i>
-                        <h3>AI/ML Stack</h3>
-                    </div>
-                    <div class="tech-badges">
-                        <span class="badge">PyTorch</span>
-                        <span class="badge">Transformers</span>
-                        <span class="badge">LangChain</span>
-                        <span class="badge">vLLM</span>
-                        <span class="badge">PEFT</span>
-                        <span class="badge">TRL</span>
-                        <span class="badge">LlamaIndex</span>
-                        <span class="badge">MLflow</span>
+                <div class="skill-group">
+                    <h3><i class="fas fa-brain"></i> AI / ML</h3>
+                    <div class="skill-tags">
+                        <span>PyTorch</span><span>Transformers</span><span>LangChain</span>
+                        <span>vLLM</span><span>PEFT</span><span>LlamaIndex</span>
+                        <span>TGI</span><span>TensorRT-LLM</span><span>MLflow</span>
+                        <span>MCP</span><span>CrewAI</span><span>LangGraph</span>
                     </div>
                 </div>
-
-                <!-- Backend & Services -->
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <i class="fas fa-server"></i>
-                        <h3>Backend & Services</h3>
-                    </div>
-                    <ul class="skill-list">
-                        <li><i class="fas fa-check"></i> Go (Microservices, gRPC)</li>
-                        <li><i class="fas fa-check"></i> Python (FastAPI, async)</li>
-                        <li><i class="fas fa-check"></i> Event-Driven Architecture</li>
-                        <li><i class="fas fa-check"></i> REST, gRPC, GraphQL</li>
-                        <li><i class="fas fa-check"></i> Observability Tools</li>
-                    </ul>
-                </div>
-
-                <!-- Cloud & Infrastructure -->
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <i class="fas fa-cloud"></i>
-                        <h3>AI Infrastructure</h3>
-                    </div>
-                    <div class="tech-badges">
-                        <span class="badge">Kubernetes</span>
-                        <span class="badge">Terraform</span>
-                        <span class="badge">Docker</span>
-                        <span class="badge">ArgoCD</span>
-                        <span class="badge">KServe</span>
-                        <span class="badge">Ray</span>
-                        <span class="badge">GPU Optimization</span>
+                <div class="skill-group">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span>Go</span><span>Python</span><span>FastAPI</span>
+                        <span>gRPC</span><span>Kafka</span><span>Redis</span>
+                        <span>PostgreSQL</span><span>OpenTelemetry</span>
                     </div>
                 </div>
-            </div>
-
-            <!-- Supported Models -->
-            <div class="models-section">
-                <h3 class="subsection-title">Supported Models & Frameworks</h3>
-                <div class="models-grid">
-                    <div class="model-category">
-                        <h4>Proprietary LLMs</h4>
-                        <p>GPT-4, GPT-4 Turbo, Claude 3, Gemini Pro</p>
-                    </div>
-                    <div class="model-category">
-                        <h4>Open Source LLMs</h4>
-                        <p>Llama 3/3.1, Mistral, Phi-3, Qwen 2, Gemma 2</p>
-                    </div>
-                    <div class="model-category">
-                        <h4>Embedding Models</h4>
-                        <p>OpenAI Ada-002, Cohere, BGE, E5</p>
-                    </div>
-                    <div class="model-category">
-                        <h4>Inference Engines</h4>
-                        <p>vLLM, TGI, ONNX Runtime, Triton</p>
+                <div class="skill-group">
+                    <h3><i class="fas fa-cloud"></i> Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span>Kubernetes</span><span>Terraform</span><span>Docker</span>
+                        <span>ArgoCD</span><span>KServe</span><span>Ray</span>
+                        <span>AWS</span><span>Helm</span>
                     </div>
                 </div>
             </div>
@@ -219,204 +115,144 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="projects" id="projects">
+    <section class="section" id="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            
+            <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
-                <!-- Project 1: Enterprise RAG -->
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <h3>Enterprise RAG System</h3>
-                    <p>Production-grade Retrieval Augmented Generation platform with advanced chunking, hybrid search, and multi-LLM support.</p>
-                    <ul class="project-features">
-                        <li>Hybrid retrieval with reranking</li>
-                        <li>Multi-LLM router (OpenAI, Anthropic, local)</li>
-                        <li>Streaming responses with citations</li>
-                        <li>RAG evaluation framework (RAGAS)</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>FastAPI</span>
-                        <span>LangChain</span>
-                        <span>Weaviate</span>
-                        <span>vLLM</span>
-                    </div>
-                    <a href="https://github.com/sanketny8/enterprise-rag-system" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
 
-                <!-- Project 2: Autonomous Agents -->
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-robot"></i>
+                <a href="https://github.com/sanketny8/llm-engineering-fundamentals" target="_blank" rel="noopener" class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-microchip"></i></div>
+                        <h3>LLM Engineering Fundamentals</h3>
                     </div>
-                    <h3>Autonomous LLM Agents</h3>
-                    <p>Multi-agent system demonstrating agentic AI patterns with tool use, planning, memory, and orchestration.</p>
-                    <ul class="project-features">
-                        <li>ReAct pattern with self-reflection</li>
-                        <li>Dynamic tool registry</li>
-                        <li>Multi-tier memory system</li>
-                        <li>Sandboxed execution environment</li>
-                    </ul>
+                    <p>Complete transformer from scratch &mdash; tokenization, attention, RoPE, ALiBi, beam search, nucleus sampling. Pure NumPy, 148+ passing tests.</p>
                     <div class="project-tech">
-                        <span>Python</span>
-                        <span>LangGraph</span>
-                        <span>GPT-4</span>
-                        <span>Claude</span>
-                        <span>Weaviate</span>
+                        <span>Python</span><span>NumPy</span>
                     </div>
-                    <a href="https://github.com/sanketny8/autonomous-llm-agents" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
+                </a>
 
-                <!-- Project 3: Fine-tuning Platform -->
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-graduation-cap"></i>
+                <a href="https://github.com/sanketny8/enterprise-rag-system" target="_blank" rel="noopener" class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-search"></i></div>
+                        <h3>Enterprise RAG System</h3>
                     </div>
-                    <h3>LLM Fine-tuning Platform</h3>
-                    <p>End-to-end platform for fine-tuning open-source LLMs with experiment tracking, evaluation, and deployment.</p>
-                    <ul class="project-features">
-                        <li>LoRA/QLoRA for Llama 3, Mistral, Phi</li>
-                        <li>Comprehensive evaluation suite</li>
-                        <li>MLflow + W&B tracking</li>
-                        <li>Automatic deployment to vLLM</li>
-                    </ul>
+                    <p>Production RAG platform with hybrid retrieval, cross-encoder reranking, multi-LLM routing, and RAGAS evaluation.</p>
                     <div class="project-tech">
-                        <span>PyTorch</span>
-                        <span>Transformers</span>
-                        <span>PEFT</span>
-                        <span>MLflow</span>
-                        <span>vLLM</span>
+                        <span>Python</span><span>FastAPI</span><span>Weaviate</span><span>LangChain</span>
                     </div>
-                    <a href="https://github.com/sanketny8/llm-finetuning-platform" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
+                </a>
 
-                <!-- Project 4: AI Gateway -->
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-bolt"></i>
+                <a href="https://github.com/sanketny8/ai-gateway-microservices" target="_blank" rel="noopener" class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-bolt"></i></div>
+                        <h3>AI Gateway Microservices</h3>
                     </div>
-                    <h3>AI Gateway Microservices</h3>
-                    <p>High-performance Go backend for LLM service routing, request management, and observability.</p>
-                    <ul class="project-features">
-                        <li>Multi-provider routing with failover</li>
-                        <li>Semantic caching for cost reduction</li>
-                        <li>Token-based rate limiting</li>
-                        <li>Sub-10ms p99 latency</li>
-                    </ul>
+                    <p>High-performance Go backend for LLM routing with semantic caching, multi-provider failover, and token-based rate limiting.</p>
                     <div class="project-tech">
-                        <span>Go</span>
-                        <span>gRPC</span>
-                        <span>Redis</span>
-                        <span>PostgreSQL</span>
-                        <span>Prometheus</span>
+                        <span>Go</span><span>gRPC</span><span>Redis</span><span>OpenTelemetry</span>
                     </div>
-                    <a href="https://github.com/sanketny8/ai-gateway-microservices" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
+                </a>
 
-                <!-- Project 5: GPU K8s Platform -->
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-server"></i>
+                <a href="https://github.com/sanketny8/autonomous-llm-agents" target="_blank" rel="noopener" class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                        <h3>Autonomous LLM Agents</h3>
                     </div>
-                    <h3>GPU Kubernetes Platform</h3>
-                    <p>Production Kubernetes infrastructure optimized for GPU workloads and model serving with GitOps.</p>
-                    <ul class="project-features">
-                        <li>GPU node pools (T4, A10G, A100)</li>
-                        <li>KServe + vLLM operator</li>
-                        <li>Ray for distributed training</li>
-                        <li>GitOps with ArgoCD</li>
-                    </ul>
+                    <p>Multi-agent system with ReAct and plan-and-execute patterns, MCP server integration for external tools, multi-tier memory, and sandboxed execution.</p>
                     <div class="project-tech">
-                        <span>Terraform</span>
-                        <span>Kubernetes</span>
-                        <span>Helm</span>
-                        <span>ArgoCD</span>
-                        <span>KServe</span>
+                        <span>Python</span><span>LangGraph</span><span>MCP</span><span>Weaviate</span>
                     </div>
-                    <a href="https://github.com/sanketny8/gpu-kubernetes-platform" target="_blank" class="project-link">
-                        View Project <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
+                </a>
+
+                <a href="https://github.com/sanketny8/llm-finetuning-platform" target="_blank" rel="noopener" class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>LLM Fine-tuning Platform</h3>
+                    </div>
+                    <p>End-to-end LoRA/QLoRA fine-tuning with experiment tracking via MLflow, evaluation suite, and auto-deployment to vLLM.</p>
+                    <div class="project-tech">
+                        <span>PyTorch</span><span>PEFT</span><span>MLflow</span><span>vLLM</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/sanketny8/gpu-kubernetes-platform" target="_blank" rel="noopener" class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-server"></i></div>
+                        <h3>GPU Kubernetes Platform</h3>
+                    </div>
+                    <p>GPU-optimized K8s infrastructure with KServe model serving, Ray for distributed workloads, DCGM monitoring, and GitOps.</p>
+                    <div class="project-tech">
+                        <span>Terraform</span><span>Kubernetes</span><span>Helm</span><span>ArgoCD</span>
+                    </div>
+                </a>
+
             </div>
         </div>
     </section>
 
-    <!-- Current Focus Section -->
-    <section class="focus">
+    <!-- Research Section -->
+    <section class="section" id="research">
         <div class="container">
-            <h2 class="section-title">Current Focus</h2>
-            <div class="focus-grid">
-                <div class="focus-item">
-                    <i class="fas fa-users-cog"></i>
-                    <p>Building agentic workflows with multi-agent collaboration</p>
+            <h2 class="section-title">Research & Notes</h2>
+            <div class="notes-list">
+                <div class="note-item">
+                    <div class="note-meta">
+                        <time>March 2026</time>
+                    </div>
+                    <div class="note-content">
+                        <h3>Exploring Attention Variants in Minimal GPT</h3>
+                        <p>
+                            Systematic comparison of 6 attention mechanisms across 3 rounds of experiments
+                            in a zero-dependency GPT implementation (~12K params). Tested gated value attention,
+                            relational scoring, salience weighting, context-augmented attention, and difference attention.
+                            The gated-context variant consistently outperformed standard attention.
+                        </p>
+                        <a href="https://github.com/sanketny8/MyProfile" target="_blank" rel="noopener" class="note-link">
+                            Code & Results <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="focus-item">
-                    <i class="fas fa-tachometer-alt"></i>
-                    <p>Optimizing RAG systems for production (latency, cost, quality)</p>
-                </div>
-                <div class="focus-item">
-                    <i class="fas fa-balance-scale"></i>
-                    <p>Exploring RLHF and DPO for LLM alignment</p>
-                </div>
-                <div class="focus-item">
-                    <i class="fas fa-microchip"></i>
-                    <p>GPU cost optimization strategies for model serving</p>
-                </div>
-                <div class="focus-item">
-                    <i class="fas fa-shield-alt"></i>
-                    <p>Responsible AI practices and bias mitigation</p>
+                <div class="note-item note-placeholder">
+                    <div class="note-meta">
+                        <time>Coming soon</time>
+                    </div>
+                    <div class="note-content">
+                        <p class="muted">More notes on inference optimization, system design, and LLM internals.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <section class="section" id="contact">
         <div class="container">
-            <h2 class="section-title">Let's Connect!</h2>
+            <h2 class="section-title">Connect</h2>
             <p class="contact-subtitle">
-                I'm always interested in connecting with fellow engineers, researchers, and builders in the AI space.
+                Open to system design discussions, backend architecture, open source collaboration, and code reviews.
             </p>
-            
             <div class="contact-grid">
-                <a href="https://twitter.com/Ny8Sanket" target="_blank" class="contact-card">
+                <a href="https://twitter.com/Ny8Sanket" target="_blank" rel="noopener" class="contact-card">
                     <i class="fab fa-twitter"></i>
-                    <h3>Twitter/X</h3>
-                    <p>@Ny8Sanket</p>
+                    <div>
+                        <h3>Twitter/X</h3>
+                        <p>@Ny8Sanket</p>
+                    </div>
                 </a>
-                
-                <a href="https://linkedin.com/in/ny8sanket" target="_blank" class="contact-card">
+                <a href="https://linkedin.com/in/ny8sanket" target="_blank" rel="noopener" class="contact-card">
                     <i class="fab fa-linkedin"></i>
-                    <h3>LinkedIn</h3>
-                    <p>in/ny8sanket</p>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>in/ny8sanket</p>
+                    </div>
                 </a>
-                
-                <a href="https://github.com/sanketny8" target="_blank" class="contact-card">
+                <a href="https://github.com/sanketny8" target="_blank" rel="noopener" class="contact-card">
                     <i class="fab fa-github"></i>
-                    <h3>GitHub</h3>
-                    <p>@sanketny8</p>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>sanketny8</p>
+                    </div>
                 </a>
-            </div>
-
-            <div class="contact-topics">
-                <p><strong>Open to:</strong></p>
-                <div class="topics">
-                    <span>Collaboration</span>
-                    <span>Technical Discussions</span>
-                    <span>Mentorship</span>
-                    <span>Open Source</span>
-                </div>
             </div>
         </div>
     </section>
@@ -424,12 +260,10 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p class="footer-quote">"Building the future of AI, one system at a time"</p>
-            <p class="footer-copyright">⭐️ From <a href="https://github.com/sanketny8" target="_blank">sanketny8</a></p>
+            <p>Sanket Nyayadhish &middot; 2026</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
